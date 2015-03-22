@@ -1,0 +1,26 @@
+<div class="col-xs-12 text-center"
+<% a = Time.now %>
+<%= a %>
+<h1> <div class="duze">MY RAILS GIRLS DIARY</div></h1>
+  
+  
+  <img src="http://2.bp.blogspot.com/-pZnJbP7GAiU/VIxyEyNErEI/AAAAAAAAC9E/jI_8Oo1t8n0/s1600/wzorek.png" height="40"/>
+  <h1><p class="male"><%= link_to("MY ENTRIES", entries_path) %></p></h1>
+  <br>
+  <br>
+  <div>
+    <img src="http://2.bp.blogspot.com/-pZnJbP7GAiU/VIxyEyNErEI/AAAAAAAAC9E/jI_8Oo1t8n0/s1600/wzorek.png" height="40"/>
+    <h1><p class="male">SOME STUFF</p></h1>
+    
+    <ul>
+<% for url, name in @websites %>
+  <li><a href="<%= url %>"><%= name %></a></li>
+<% end %>
+     
+    </ul>
+  </div>
+
+  <br>
+  <br>
+  <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/15/formation-ruby.png" height="200"/>
+</div>

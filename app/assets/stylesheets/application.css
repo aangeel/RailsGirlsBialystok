@@ -1,0 +1,53 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.duze{
+  color: #AC58FA;
+  font-size: 40px;
+  font-family: "Arial", serif;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  
+}
+
+.male{
+  color: #FFBF00;
+  font-size: 20px;
+  font-family: "Arial", serif;
+  
+}
+
+
+a:link {
+  color: #FA5858
+}
+
+a:visited {
+  color:#FA5858
+}
+
+a:hover {
+  color:#FA5858
+}
+
+a:active {
+  color:#FA5858
+}
+
+ul
+{
+    list-style-type: none;
+}
